@@ -2,14 +2,23 @@
 MOUNT D ".."
 :menu
 cls
-@ECHO Duke Nukem 3D Launch Menu
+
+@ECHO [1;33m[43mษออออออออออออออออออออออออออออออออออออออออออออออออออออป
+@ECHO บ -------------------------------------------------- บ
+@ECHO บ Duke Nukem 3D Launch Menu                          บ
+@ECHO บ -------------------------------------------------- บ
+@ECHO บ 1) Duke Nukem 3D Atomic Edition                    บ
+@ECHO บ 2) Duke it out in D.C.                             บ
+@ECHO บ 3) Duke Nucklear Winter                            บ
+@ECHO บ 4) Duke Caribbean Life's a Beach                   บ
+@ECHO บ 5) Setup                                           บ
+@ECHO บ                                                    บ
+@ECHO บ -------------------------------------------------- บ
+@ECHO บ 6) Exit Menu                                       บ
+@ECHO บ -------------------------------------------------- บ
+@ECHO ศออออออออออออออออออออออออออออออออออออออออออออออออออออผ[0m
 @ECHO NOTE: If it asks you to "COPY INTERNAL DEFAULTS TO DIRECTORY" press n
-@ECHO 1) Duke Nukem 3D Atomic Edition
-@ECHO 2) Duke it out in D.C.
-@ECHO 3) Duke Nucklear Winter
-@ECHO 4) Duke Caribbean Life's a Beach
-@ECHO 5) Setup
-@ECHO 6) Exit Menu
+
 @choice /c123456 /s Which option do you want to run? [1-6] /n
 if errorlevel 6 goto END
 if errorlevel 5 goto SETUP
